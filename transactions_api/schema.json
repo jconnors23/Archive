@@ -1,0 +1,18 @@
+[{
+        "accountNumber": {
+            "type": "number",
+            "description": "The user's account number"
+        },
+        "amount": {
+            "type": "number",
+            "description": "monetary value of transaction"
+        },
+        "vendor": {
+            "type": "string",
+            "description": "merchant"
+        },
+        "timestamp": {"type": "string",
+                      "format": "date-time",
+                      "description": "time of transaction"
+        }
+}]
